@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #9fb4f2;
+}
+
