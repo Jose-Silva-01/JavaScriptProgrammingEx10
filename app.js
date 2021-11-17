@@ -29,19 +29,18 @@ myButton.innerHTML = `Click Me`;
 // myDiv.appendChild(myButton);
 // Add button before the paragraph
 myDiv.insertBefore(myButton, newParagraph);
-myDiv.
 let p = document.createElement(`p`);
 myDiv.appendChild(p);
 
-myButton.addEventListener(`click`, function(){
-    let r = Math.floor(Math.random()* 255);
-    let g = Math.floor(Math.random()* 255);
-    let b = Math.floor(Math.random()* 255);
+myButton.addEventListener(`click`, function() {
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
     myButton.style.color = `rgb(${r},${g},${b})`;
 
-    r = Math.floor(Math.random()* 255);
-    g = Math.floor(Math.random()* 255);
-    b = Math.floor(Math.random()* 255);
+    r = Math.floor(Math.random() * 255);
+    g = Math.floor(Math.random() * 255);
+    b = Math.floor(Math.random() * 255);
     myDiv.style.backgroundColor = `rgb(${r},${g},${b})`;
     p.innerHTML = `rgb(${r},${g},${b})`;
 })
